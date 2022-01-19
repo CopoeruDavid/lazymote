@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "LazyMote",
+    "slug": "LazyMote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./logo_square.png",
+    "splash": {
+      "image": "./logo_square.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./logo_square.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.exemple.lazymote"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
